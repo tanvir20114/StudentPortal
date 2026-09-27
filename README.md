@@ -3,6 +3,7 @@
 A full-stack student portal built for **XYZ University**, giving students a single dashboard to manage academics, payments, attendance, and campus services online.
 
  **Live Site (Frontend):** [https://student-portal-theta-roan.vercel.app](https://student-portal-theta-roan.vercel.app)
+ 
  **Live API (Backend):** [https://studentportal-upyf.onrender.com](https://studentportal-upyf.onrender.com)
 
 >  The backend is hosted on Render's free tier. If it has been inactive, the **first request may take 30–50 seconds** to wake up (cold start) — please be patient on first load.
