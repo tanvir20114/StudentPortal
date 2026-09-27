@@ -1,0 +1,28 @@
+{
+  "name": "xyz-student-portal-server",
+  "version": "1.0.0",
+  "description": "Backend API for XYZ University Student Portal (replaces data.json with MongoDB)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "seed": "node seed/seed.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "express-mongo-sanitize": "^2.2.0",
+    "express-rate-limit": "^8.7.0",
+    "firebase-admin": "^12.7.0",
+    "helmet": "^8.3.0",
+    "mongodb": "^6.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}

@@ -1,0 +1,109 @@
+.cstm-btn {
+    background-color: #0F1A34;
+    color: white;
+    transition:background-color 0.7s ease, color 0.4s ease;
+}
+.cstm-btn:hover {
+    background-color:#091023 ;
+    color: #97B6BF ;
+}
+a{
+    text-decoration: none;
+}
+
+.nav-sidebar {
+  background-color: #0F1A34;
+  height: 100vh;
+  width: 280px;
+  max-width: 80vw;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1045;
+  overflow-y: auto;
+  transform: translateX(-100%);
+  transition: transform 0.3s ease-in-out;
+}
+
+@media (max-width: 767.98px) {
+  .nav-sidebar {
+    width: 220px;
+  }
+}
+
+.nav-sidebar-open {
+  transform: translateX(0);
+}
+
+.sidebar-backdrop {
+  position: fixed;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1040;
+}
+
+@media (min-width: 768px) {
+  .nav-sidebar {
+    position: relative;
+    width: 280px;
+    max-width: 280px;
+    flex-shrink: 0;
+    transform: none;
+    transition: none;
+  }
+}
+
+.nav-sidebar-header {
+  background-color: #182444;
+  padding: 0.9rem 0;
+}
+
+.nav-sidebar-logo-icon {
+  font-size: clamp(1.3rem, 4vw, 1.9rem);
+  background-color: #fff;
+  border-radius: 4px;
+  padding: 2px;
+}
+
+.nav-sidebar-title {
+  font-size: clamp(0.9rem, 2.4vw, 1.35rem);
+  white-space: nowrap;
+}
+
+.nav-item-link {
+  padding: 0.55rem 1.1rem;
+  font-size: clamp(0.68rem, 1.7vw, 0.98rem);
+  font-weight: 300;
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  color: #d7dae5;
+  text-decoration: none;
+  transition: background-color 0.15s ease-in-out, color 0.15s ease-in-out;
+}
+
+.nav-item-link:hover {
+  background-color: #182444;
+  color: #ffffff;
+}
+
+.active .nav-item-link {
+  background-color: #2E5AAC;
+  color: #ffffff;
+}
+
+
+.nav-toggle-btn {
+  font-size: clamp(1.4rem, 5vw, 1.7rem);
+  color: #2E5AAC;
+  line-height: 1;
+}
+
+.nav-student-name {
+  font-size: clamp(0.85rem, 2.5vw, 1.1rem);
+}
+
+.nav-student-id {
+  font-size: clamp(0.72rem, 2vw, 0.9rem);
+  color: #6c757d;
+}
