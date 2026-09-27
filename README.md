@@ -109,34 +109,7 @@ StudentPortal/
 - Write endpoints (apply, submit, register, etc.) are rate-limited to prevent abuse.
 - Secrets (MongoDB URI, Firebase service key) are kept in environment variables — never committed to the repository.
 
----
 
-## ⚙️ Environment Variables
-
-### `client/.env`
-
-```env
-VITE_apiKey=your_firebase_api_key
-VITE_authDomain=your_project.firebaseapp.com
-VITE_projectId=your_project_id
-VITE_storageBucket=your_project.firebasestorage.app
-VITE_messagingSenderId=your_sender_id
-VITE_appId=your_app_id
-VITE_API_URL=http://localhost:5000
-```
-
-### `server/.env`
-
-```env
-URI=your_mongodb_connection_string
-FB_SERVICE_KEY=your_base64_encoded_firebase_service_account_key
-CLIENT_URL=http://localhost:5173
-PORT=5000
-```
-
-> 🔒 Never commit `.env` files. Both `client` and `server` already ignore them via `.gitignore`.
-
----
 
 ## 🚀 Getting Started (Local Setup)
 
