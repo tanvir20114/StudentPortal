@@ -1,4 +1,4 @@
-# 🎓 XYZ University — Student Portal
+# XYZ University — Student Portal
 
 A full-stack student portal built for **XYZ University**, giving students a single dashboard to manage academics, payments, attendance, and campus services online.
 
@@ -78,7 +78,7 @@ StudentPortal/
 
 ---
 
-## ✨ Features
+## Features
 
 | Module | Description |
 |---|---|
@@ -100,7 +100,7 @@ StudentPortal/
 
 ---
 
-## 🔐 Authentication & Security
+## Authentication & Security
 
 - **Firebase Authentication** handles sign-up/sign-in (email & password).
 - Every protected API route verifies the Firebase ID token server-side (`verifyFirebaseToken` middleware).
@@ -111,7 +111,7 @@ StudentPortal/
 
 
 
-## 🚀 Getting Started (Local Setup)
+## Getting Started (Local Setup)
 
 ### Prerequisites
 - Node.js (v18+)
@@ -161,7 +161,7 @@ The app will be running at `http://localhost:5173`, connected to the backend at 
 
 ---
 
-## 🌍 Deployment Notes
+## Deployment Notes
 
 - **Backend (Render):** Root Directory = `server`, Build Command = `npm install`, Start Command = `npm start`, Instance Type = Free.
 - **Frontend (Vercel):** Root Directory = `client`, framework auto-detected as Vite.
@@ -172,7 +172,7 @@ The app will be running at `http://localhost:5173`, connected to the backend at 
 
 ---
 
-## 📌 Known Limitations
+## Known Limitations
 
 - Passwords are managed entirely by Firebase Auth — no password data is ever stored in MongoDB.
 - Free-tier hosting means the backend may "sleep" after inactivity, causing a slow first response.
@@ -180,13 +180,13 @@ The app will be running at `http://localhost:5173`, connected to the backend at 
 
 ---
 
-## 📄 License
+## License
 
 This project was built for educational purposes as part of a university portal demo.
 
 ---
 
-## 🙋 Author
+## Author
 
 **Tanvir**
 GitHub: [@tanvir20114](https://github.com/tanvir20114)
