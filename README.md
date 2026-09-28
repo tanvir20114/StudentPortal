@@ -8,7 +8,14 @@ A full-stack student portal built for **XYZ University**, giving students a sing
 
 >  The backend is hosted on Render's free tier. If it has been inactive, the **first request may take 30–50 seconds** to wake up (cold start) — please be patient on first load.
 
----
+## Demo Access
+
+Use the following test account to explore the portal:
+
+| Field    | Value                   |
+|----------|-------------------------|
+| Email    | Sakib35-1122@gmail.com  |
+| Password | student123              |
 
 ## Overview
 
